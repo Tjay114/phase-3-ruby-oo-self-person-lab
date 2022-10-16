@@ -1,4 +1,5 @@
 # your code goes here
+#require 'pry'
 class Person 
     attr_accessor :bank_account
     attr_reader :name, :hygiene, :happiness
@@ -81,3 +82,7 @@ class Person
     end
 
 end
+
+p1 =  Person.new('Haggai')
+
+#binding.pry
